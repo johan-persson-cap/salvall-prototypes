@@ -1,46 +1,102 @@
-# Getting Started with Create React App
+# Salvall Prototypes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Professional website templates showcasing three different business types. This project demonstrates modern, responsive single-page applications (SPAs) built with React and TypeScript.
 
-## Available Scripts
+## 🎨 Featured Prototypes
 
-In the project directory, you can run:
+### 1. Construction Company - BuildPro Construction
+- **Theme**: Professional blue/gray
+- **Features**: Hero section, company info with statistics, project gallery, contact form
+- **Target Audience**: Construction and building companies
+- **Route**: `/construction`
+
+### 2. Café - Cozy Corner Café
+- **Theme**: Warm brown/cream tones
+- **Features**: Inviting hero, menu specialties, café gallery, contact with social media
+- **Target Audience**: Coffee shops and cafés
+- **Route**: `/cafe`
+
+### 3. Pizzeria - Bella Napoli Pizzeria
+- **Theme**: Red/Italian-inspired
+- **Features**: Appetizing hero, featured pizzas menu, food gallery, contact with delivery info
+- **Target Audience**: Pizzerias and Italian restaurants
+- **Route**: `/pizzeria`
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/johan-persson-cap/salvall-prototypes.git
+cd salvall-prototypes
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## 📝 Available Scripts
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Runs the app in development mode. The page will reload if you make edits.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
+Builds the app for production to the `build` folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎯 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ✅ Fully responsive design (mobile, tablet, desktop)
+- ✅ Smooth scrolling navigation
+- ✅ Working contact forms with validation
+- ✅ Modern UI with appropriate color themes
+- ✅ TypeScript for type safety
+- ✅ React Router for navigation
+- ✅ Component-based architecture
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technologies Used
 
-### `npm run eject`
+- **React 19** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **React Router DOM** - Client-side routing
+- **CSS3** - Styling with gradients and animations
+- **Create React App** - Project setup and tooling
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📱 Responsive Design
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All prototypes are fully responsive and optimized for:
+- 📱 Mobile devices (320px and up)
+- 📱 Tablets (768px and up)
+- 💻 Desktops (1024px and up)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🎨 Customization
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Each prototype is self-contained in its own component folder:
+- `src/components/Construction/` - Construction company prototype
+- `src/components/Cafe/` - Café prototype
+- `src/components/Pizzeria/` - Pizzeria prototype
 
-## Learn More
+You can easily customize colors, content, and images by editing the respective `.tsx` and `.css` files.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is private and for demonstration purposes.
+
+## 👥 Author
+
+Built by the Salvall team to showcase portfolio website examples for potential clients.
